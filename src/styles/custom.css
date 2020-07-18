@@ -1,0 +1,269 @@
+.form_title {
+    font-weight: 150 !important;
+    margin-left: 3%;
+}
+
+.background_color {
+	background-color: #eceef1;
+	/* background-color: #F4F5F8;   */
+}
+
+#lable {
+	font-weight: 100;
+}
+
+/* .success_button {
+	background-color: #53b700 !important;
+	border-color: #53b700 !important;
+	color: #ffffff !important;
+}
+
+.success_button:hover {
+	background-color: #64d309 !important;
+	border-color: #64d309 !important;
+	color: #ffffff !important;
+} */
+
+.ant-select-selection,
+.ant-input-affix-wrapper .ant-input,
+.ant-input-group .ant-input,
+.ant-calender-picker-input,
+.ant-input,
+.ant-btn-dashed,
+.ant-input-number-input,
+.ant-btn,
+.ant-checkbox-input,
+.rdw-editor-toolbar {
+	border-color: #bfbfbf !important;
+}
+
+.ant-table-thead > tr > th {
+	font-weight: 100 !important;
+}
+
+.ant-divider-inner-text {
+	color: #bfbfbf !important;
+	font-weight: 100;
+}
+
+/* Remove if conflict card with table  */
+.ant-table-small > .ant-table-title,
+.ant-table-small > .ant-table-footer {
+	padding: 0px 0px !important;
+}
+
+.panel_color_first {
+	background-color: antiquewhite ;
+}
+
+.panel_color_second {
+	background-color: #b1dca0;
+}
+
+.panel_color_third {
+	background-color: #8bccf3;
+}
+
+.panel_color_fourth {
+
+}
+
+.footer_button_card_color{
+	background-color: #585858;
+}
+
+.ant-card{
+ /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0), 0 4px 10px 0 rgba(0, 0, 0, 0.18) !important; */
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0), 0 1px 7px 0 rgba(0, 0, 0, 0.10) !important;
+}
+
+/* .ant-btn-primary{
+	color: #fff;
+    background-color: #53b700;
+    border-color: #53b700;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.ant-btn-primary:hover{
+	color: #fff;
+    background-color: #64d309;
+    border-color: #64d309;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+} */
+
+.pd-20{
+ padding-bottom: 20px;
+}
+
+.pd-10{
+	padding-top: 10px;
+}
+
+.position_right{
+    float: right;
+}
+
+.title_image{
+    margin-left: 35px ;
+}
+
+.center_padding{
+    padding: 2px;
+}
+
+.top_margin{
+    margin-top: 1%;
+}
+
+.back_button{
+    background-color: #ffffff !important;
+    color: black !important;
+}
+
+.upload_button{
+    padding-top: 23px;
+}
+
+.pd-left-30{
+    padding-left: 30px;
+}
+
+.font_weight{
+    font-weight: 700;
+}
+
+
+/* Button CSS */
+.ant-btn-primary {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    padding: 0 16px;
+    min-width: 64px;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
+    background-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.ant-btn-primary::-moz-focus-inner {
+    border: none;
+}
+
+/* Overlay */
+.ant-btn-primary::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+/* Ripple */
+.ant-btn-primary::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    padding: 50%;
+    width: 32px; /* Safari */
+    height: 32px; /* Safari */
+    background-color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+    transition: opacity 1s, transform 0.5s;
+}
+
+/* Hover, Focus */
+.ant-btn-primary:hover,
+.ant-btn-primaryfocus {
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.ant-btn-primary:hover::before {
+    opacity: 0.08;
+}
+
+.ant-btn-primary:focus::before {
+    opacity: 0.24;
+}
+
+.ant-btn-primary:hover:focus::before {
+    opacity: 0.3;
+}
+
+/* Active */
+.ant-btn-primary:active {
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.ant-btn-primary:active::after {
+    opacity: 0.32;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0s;
+}
+
+/* Disabled */
+.ant-btn-primary:disabled {
+    color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.38);
+    background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.12);
+    box-shadow: none;
+    cursor: initial;
+}
+
+.ant-btn-primary:disabled::before {
+    opacity: 0;
+}
+
+.ant-btn-primary:disabled::after {
+    opacity: 0;
+}
+
+
+/* Model header CSS */
+.ant-modal-header {
+    padding: 16px 24px;
+    border-radius: 4px 4px 0 0;
+    background: #d2d2d2;
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff;
+    text-transform: uppercase;
+}
+
+
+/* Ant table */
+
+.ant-table-small > .ant-table-content > .ant-table-scroll > .ant-table-body > table > .ant-table-thead > tr > th, .ant-table-small > .ant-table-content > .ant-table-fixed-left > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-small > .ant-table-content > .ant-table-fixed-right > .ant-table-header > table > .ant-table-thead > tr > th, .ant-table-small > .ant-table-content > .ant-table-fixed-left > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-thead > tr > th, .ant-table-small > .ant-table-content > .ant-table-fixed-right > .ant-table-body-outer > .ant-table-body-inner > table > .ant-table-thead > tr > th {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    font-weight: 450 !important;
+}
+
+.ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr > th{
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    font-weight: 450 !important;
+}

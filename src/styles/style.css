@@ -1,0 +1,17 @@
+.ant-select-selection,
+.ant-input-affix-wrapper .ant-input,
+.ant-input-group .ant-input,
+.ant-calender-picker-input,
+.ant-input,
+.ant-btn-dashed,
+.ant-input-number-input,
+.ant-btn,
+.ant-checkbox-input,
+.rdw-editor-toolbar {
+  background-color: "#fff";
+  border-radius: 4px;
+  border: "1px solid";
+  border-color: #1890ff;
+  border-top-width: 1.02px;
+}
+

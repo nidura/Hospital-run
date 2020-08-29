@@ -20,7 +20,7 @@
         "jss-extend": "6.2.0",
         "jwt-decode": "2.2.0",
         "keycode": "2.2.0",
-        "lodash": "4.17.10",
+        "lodash": "4.17.19",
         "mobile-detect": "1.4.2",
         "moment": "2.22.2",
         "moment-timezone": "^0.5.23",

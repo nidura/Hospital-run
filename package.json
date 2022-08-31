@@ -23,7 +23,7 @@
         "lodash": "4.17.10",
         "mobile-detect": "1.4.2",
         "moment": "2.22.2",
-        "moment-timezone": "^0.5.23",
+        "moment-timezone": "^0.5.35",
         "perfect-scrollbar": "1.4.0",
         "print-js": "^1.0.54",
         "prismjs": "1.15.0",
